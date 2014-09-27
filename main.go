@@ -19,8 +19,8 @@ import (
 
 var (
 	wait      sync.WaitGroup
-	c         = flag.Int("c", 500, "concurrency")
-	n         = flag.Int("n", 10000, "number")
+	c         = flag.Int("c", 400, "concurrency")
+	n         = flag.Int("n", 5000, "number")
 	paramFile = flag.String("pf", "", "params file")
 	urlFile   = flag.String("uf", "", "url file")
 	params    []string
